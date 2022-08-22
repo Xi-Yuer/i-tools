@@ -1,8 +1,12 @@
 {
   "name": "itool",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "I UTOOLS FOR ME FORMATTIME",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Xi-Yuer/i-tools.git"
+  },
   "author": "",
   "keywords": ["itool"],
   "license": "ISC"
