@@ -21,4 +21,7 @@ class LocalCache {
         window.localStorage.clear()
     }
 }
-export default new LocalCache()
+const cache = new LocalCache()
+module.exports = {
+    cache
+} 

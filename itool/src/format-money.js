@@ -4,7 +4,7 @@
  * @param {string} symbol $ | ￥
  * @returns string
  */
-export function formatMoney(money, symbol = '￥') {
+function formatMoney(money, symbol = '￥') {
     let str = money.toFixed(2)  // 只取2位小数
     let l = str.split('.')[0] // 获取整数位
     let r = str.split('.')[1] // 获取小数位
@@ -21,4 +21,8 @@ export function formatMoney(money, symbol = '￥') {
         return symbol + arr.join('');
     }
     return symbol + arr.join('') + '.' + r;
+}
+
+module.exports = {
+    formatMoney
 }
