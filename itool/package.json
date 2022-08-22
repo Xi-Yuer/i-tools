@@ -1,0 +1,9 @@
+{
+  "name": "itool",
+  "version": "1.0.0",
+  "description": "I UTOOLS FOR ME FORMATTIME",
+  "main": "index.js",
+  "author": "",
+  "keywords": ["itool"],
+  "license": "ISC"
+}
