@@ -1,4 +1,4 @@
-const { formatTime } = require('./src/format-time')
+const { formatTime, padZero } = require('./src/format-time')
 
 const { htmlEscape, htmlUnEscape } = require('./src/htmlEscape')
 
@@ -8,5 +8,6 @@ module.exports = {
     formatTime,
     htmlEscape,
     htmlUnEscape,
-    formatMoney
+    formatMoney,
+    padZero
 }

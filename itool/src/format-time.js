@@ -19,11 +19,13 @@ function formatTime(str,isFullTime = true){
 
     
 }
+
 // 补零的函数
 function padZero(n){
     return n > 9 ? n : '0' + n
 }
 
 module.exports = {
-    formatTime
+    formatTime,
+    padZero
 }
