@@ -1,13 +1,16 @@
 {
   "name": "itool",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "I UTOOLS FOR ME AND YOU",
   "main": "index.js",
+  "typings": "index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/Xi-Yuer/i-tools.git"
   },
   "author": "",
-  "keywords": ["itool"],
+  "keywords": [
+    "itool"
+  ],
   "license": "ISC"
 }
