@@ -1,10 +1,10 @@
-const { formatTime, padZero } = require('./src/format-time')
+const { formatTime, padZero } = require('./js/src/format-time')
 
-const { htmlEscape, htmlUnEscape } = require('./src/htmlEscape')
+const { htmlEscape, htmlUnEscape } = require('./js/src/htmlEscape')
 
-const { formatMoney } = require("./src/format-money")
+const { formatMoney } = require("./js/src/format-money")
 
-const cache = require('./src/localcache')
+const cache = require('./js/src/localcache')
 
 module.exports = {
     formatTime,
